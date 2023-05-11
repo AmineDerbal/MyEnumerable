@@ -1,3 +1,5 @@
+require 'MyEnumerable'
+
 class MyList
   include MyEnumerable
   def initialize(*list)
